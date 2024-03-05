@@ -45,7 +45,7 @@ const config: Config = {
                 background: "#1D2533",
             },
             backgroundImage: {
-                "favorites-icon": "url('/img/favorites.svg)" 
+                "favorites-icon": "url('./public/img/favorites.svg)" 
             }
         }
     },

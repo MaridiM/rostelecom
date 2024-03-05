@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Rostelecom Basis Bold';
+    src: url('/fonts/Rostelecom-Basis-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Rostelecom Basis Medium';
+    src: url('/fonts/Rostelecom-Basis-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Rostelecom Basis Regular';
+    src: url('/fonts/Rostelecom-Basis-Regular.woff') format('woff');
+}

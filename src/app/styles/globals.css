@@ -1,0 +1,27 @@
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+ @layer base {
+    * {
+        @apply box-border;
+    }
+    body {
+        @apply min-h-screen text-ligth bg-background font-regular flex flex-col;
+    }
+    .container { 
+        @apply max-w-[1535px] my-0 mx-auto;
+    }
+    .btn-reset {
+        @apply m-0 p-0 list-none;
+    }
+    .list-reset {
+        @apply m-0 p-0 cursor-pointer bg-transparent border-none;
+    }
+    .overflow-hidden {
+        @apply overflow-y-hidden pr-2;
+    }
+}

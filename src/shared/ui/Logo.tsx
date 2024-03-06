@@ -1,15 +1,12 @@
 import Link from 'next/link'
 import React from 'react'
 import { paths } from '..'
+import { LogoIcon } from '@public/img'
 
 const Logo = () => {
     return (
-        <Link href={paths.home}>
-            <img 
-                className='w-auto max-h-[50px]'
-                src="/img/logo.svg"
-                alt="Rostelecom Store"
-            />
+        <Link href={paths.home} className='w-full h-[50px]'>
+            <LogoIcon  className="w-full h-full" />
         </Link> 
     )
 }

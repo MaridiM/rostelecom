@@ -38,14 +38,11 @@ const config: Config = {
         },
         extend: {
             colors: {
-                ligth: {
+                light: {
                     DEFAULT: "#E8E9EA",
                     hover: "#9466FF",
                 },
                 background: "#1D2533",
-            },
-            backgroundImage: {
-                "favorites-icon": "url('./public/img/favorites.svg)" 
             }
         }
     },

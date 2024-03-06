@@ -10,7 +10,10 @@
         @apply box-border;
     }
     body {
-        @apply min-h-screen text-ligth bg-background font-regular flex flex-col;
+        @apply min-h-screen text-light bg-background font-regular flex flex-col;
+    }
+    svg {
+        @apply fill-light;
     }
     .container { 
         @apply max-w-[1535px] my-0 mx-auto;

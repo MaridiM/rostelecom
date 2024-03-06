@@ -1,9 +1,9 @@
-import React from 'react'
+import { SearchIcon } from "@public/img"
 
 const NavbarSearch = () => {
     return (
         <button className="h-6 w-6 flex justify-center items-center">
-            <img src="/img/search.svg" alt="Rostelecom Store Search"/>
+            <SearchIcon className="hover:fill-light-hover" />
         </button>
     )
 }
